@@ -1,0 +1,42 @@
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: #ffffff;
+  background-image: url("../space-saving1.jpg");
+  background-size: cover;
+}
+
+.welcome {
+  background: rgb(43, 40, 40, 0.8);
+  padding: 40px;
+  width: 250px;
+  margin: auto;
+  margin-top: 65px;
+  height: 400px;
+  margin-left: 500px;
+}
+
+form {
+  width: 240px;
+  text-align: center;
+}
+
+input[type="submit"] {
+  border: none;
+  width: 190px;
+  background: white;
+  color: #000;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: #fff;
+  background-color: royalblue;
+}
+
+h2 {
+  color: #8b87fa;
+}

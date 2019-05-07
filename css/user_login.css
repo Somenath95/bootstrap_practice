@@ -1,0 +1,78 @@
+body {
+  color: red;
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: #ffffff;
+  background-image: url("../space-saving1.jpg");
+  background-size: cover;
+}
+
+.signin {
+  background: rgb(43, 40, 40, 0.8);
+  padding: 40px;
+  width: 250px;
+  margin: auto;
+  margin-top: 65px;
+  height: 400px;
+  margin-left: 500px;
+}
+
+form {
+  width: 240px;
+  text-align: center;
+}
+
+input {
+  width: 240px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-family: "Play", sans-serif;
+  font-size: 16px;
+  font-weight: 200px;
+  padding: 10px, 10px;
+  transition: border 0.5s;
+  outline: none;
+  color: #fff;
+}
+
+input[type="submit"] {
+  border: none;
+  width: 190px;
+  background: white;
+  color: #000;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: #fff;
+  background-color: royalblue;
+}
+
+h2 {
+  color: #8b87fa;
+}
+
+a {
+  color: yellow;
+  text-decoration: blink;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+::placeholder {
+  color: aliceblue;
+  opacity: 0.8;
+}
